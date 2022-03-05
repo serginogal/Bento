@@ -1,3 +1,7 @@
+Slightly modified version of Bento
+added searchbar + modified padding of link list
+
+
 ![image](assets/img/header.png)
 
 <p style="margin: -20px 0 30px">
