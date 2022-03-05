@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Sergi',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+  weatherKey: 'xxxxxxx', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '35.6938',
+  defaultLongitude: '139.7034',
 
   // Autochange
   autoChangeTheme: true,
@@ -61,31 +61,31 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'React',
+      icon: 'laptop',
+      link: 'https://reddit.com/r/reactnative',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'React Native',
+      icon: 'smartphone',
+      link: 'https://reddit.com/r/reactnative',
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://www.youtube.com',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Unixporn',
+      icon: 'terminal-square',
+      link: 'https://reddit.com/r/reactnative',
     },
   ],
 
@@ -139,20 +139,20 @@ const CONFIG = {
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Eurobeat',
+          link: 'https://music.youtube.com/playlist?list=PLERxxZc6kAQBVfHSKym6Z6LLaiwBZeldN',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Indie',
+          link: 'https://music.youtube.com/playlist?list=PL1sm328D6QczZCjvGAzeZxEkIS3HY7sWf',
         },
         {
           name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          link: 'https://music.youtube.com/playlist?list=RDCLAK5uy_nvu_HUY0DPNpbB_V0moUfs9s5zABAF8xQ',
         },
         {
           name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          link: 'https://music.youtube.com/playlist?list=RDCLAK5uy_mx8e76iA69eSkgLpj_oxbrgchR0I5Fa1U',
         },
       ],
     },
@@ -160,6 +160,10 @@ const CONFIG = {
       icon: 'coffee',
       id: '2',
       links: [
+        {
+          name: 'Slack',
+          link: 'https://www.slack.com',
+        },
         {
           name: 'Linkedin',
           link: 'https://www.linkedin.com',
@@ -169,12 +173,8 @@ const CONFIG = {
           link: 'https://www.dribbble.com',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
-        },
-        {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Behance',
+          link: 'https://www.behance.net',
         },
       ],
     },
